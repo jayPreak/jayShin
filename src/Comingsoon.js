@@ -29,8 +29,25 @@ function Comingsoon() {
             <h1>We are coming <span>soon.</span></h1>
             <div className='launch'>
                 <h2>
-                    Launch in {days} days, {hours} hours, {minutes} minutes, {seconds} seconds 
+                    Launching in {days} days, {hours} hours, {minutes} minutes, {seconds} seconds 
                 </h2>
+
+                <div>
+                    <p>{days}</p>
+                    <span>Days</span>
+                </div>
+                <div>
+                    <p>{hours}</p>
+                    <span>Hours</span>
+                </div>
+                <div>
+                    <p>{minutes}</p>
+                    <span>Minutes</span>
+                </div>
+                <div>
+                    <p>{seconds}</p>
+                    <span>Seconds</span>
+                </div>
             </div>
             <button>Learn More</button>
         </div>
