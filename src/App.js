@@ -1,8 +1,8 @@
 import React from 'react';
 import './styles.css';
-import Comingsoon from './Comingsoon';
+import Comingsoon from './components/Comingsoon';
 import Logo from './Logo';
-// import rocket from './rocket.png'
+import rocket from './assets/rocket1.png'
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Logo />
       {/* <h1>Coming Soon</h1> */}
       <Comingsoon />
-      {/* <img src={rocket} alt="Rocket" id="rocket" /> */}
+      <img src={rocket} className="rocket" alt="Rocket" id="rocket" />
     </div>
   );
 }

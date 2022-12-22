@@ -44,6 +44,7 @@ body {
   .content h1{
     font-size: 64px;
     font-weight: 600;
+    margin: inherit;
   }
   .content h1 span{
     color: #ff908b;
@@ -56,7 +57,44 @@ body {
     padding: 12px 25px;
     color: #ffffff;
   }
-  
+  .launch {
+    display: flex;
+    margin-bottom: 5%;
+  }
+
+  .launch div{
+    flex-basis: 100px;
+  }
+
+  .launch div p{
+    font-size: 60px;
+    margin-bottom: -14px;
+    margin: inherit;
+  }
+
+  .rocket {
+    filter: invert(100%);
+    transform: rotate(-45deg);
+    width: 250px;
+    position: absolute;
+    right: 10%;
+    bottom: 7%;
+    animation: rocket 4s linear infinite;
+
+  }
+
+  @keyframes rocket {
+    0%{
+      bottom: 7%;
+      opacity: 0;
+    }
+
+    100%{
+      bottom: 105%;
+      opacity: 1;
+    }
+    
+  }
   /* h1 {
     margin-bottom: 30px;
     font-size: 3em;
