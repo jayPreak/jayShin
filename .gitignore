@@ -5,6 +5,7 @@
 
 firebase.json
 /.firebase
+.firebaserc
 # User-specific files
 *.rsuser
 *.suo

@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    /* background-image: url('https://cdn.discordapp.com/attachments/1036292310008336506/1050913926080114739/A336152F-9E79-4A36-8E74-8ECF0A9763E2.jpg'); */
+    /* background-size: cover; */
+    /* color: white; */
+    box-sizing: border-box;
+    height: 100%;
+  }
